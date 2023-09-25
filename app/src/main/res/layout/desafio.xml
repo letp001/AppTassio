@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E41919"
+        android:fontFamily="serif"
+        android:paddingStart="65dp"
+        android:paddingTop="30dp"
+        android:text="@string/top_stories"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-72dp"
+        app:srcCompat="@drawable/drone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="-65dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="12dp"
+        android:text="@string/conhe_a_os_drones_de_papel_o_usados_pela_ucr_nia_na_guerra_contra_a_r_ssia"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="10dp"
+        android:text="@string/drones_de_papel_o_foram_utilizados_pela_ucr_nia_no_ataque_a_um_aer_dromo_de_kursk_no_oeste_da_r_ssia_no_dia_27_de_agosto"
+        android:textAlignment="textStart"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/a_austr_lia_tem_fornecido_ucr_nia_100_drones_de_papel_o_por_m_s_desde_mar_o_deste_ano_a_ajuda_faz_parte_de_um_acordo_no_valor_de_15_7_milh_es_de_libras_quase_r_100_milh_es_fechado_em_julho_de_2021"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/a_empresa_australiana_sypaq_criou_o_corvo_precision_payload_delivery_system_ppds_para_uso_militar_policial_seguran_a_de_fronteira_e_servi_os_de_emerg_ncia_bem_como_seguran_a_alimentar_inspe_o_de_ativos_e_busca_e_resgate"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
+            android:text="Next "
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#E41919" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
